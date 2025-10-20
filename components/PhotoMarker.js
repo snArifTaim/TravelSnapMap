@@ -13,8 +13,6 @@ export default function PhotoMarker({ marker }) {
     >
       <Callout>
         <View style={styles.calloutContainer}>
-          <Text style={styles.testText}>Testing Callout - Can you see this?</Text>
-          
           {marker.photo ? (
             <Image 
               source={{ uri: marker.photo }} 
