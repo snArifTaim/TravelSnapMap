@@ -107,13 +107,11 @@ const addMarker = (photoUri) => {
     
     {/* Photo Markers - Only show if they have photo */}
     {markers.map((marker) => {
-      // Check if marker has valid photo and coordinates
       if (marker.photo && marker.coords && marker.coords.latitude && marker.coords.longitude) {
         return <PhotoMarker key={marker.id} marker={marker} />;
       } else {
-        // Debug marker jodi photo na thake
         console.log("Invalid marker:", marker);
-        return null; // Or show a simple marker
+        return null;
       }
     })}
   </MapView>
