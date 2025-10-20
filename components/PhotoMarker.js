@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     height: 120,
     borderRadius: 8,
     marginBottom: 8,
-    backgroundColor: '#f0f0f0', // Background color for visibility
+    backgroundColor: '#f0f0f0',
   },
   text: { 
     fontSize: 12, 
